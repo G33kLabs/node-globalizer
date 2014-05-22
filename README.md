@@ -24,10 +24,15 @@ require('globalizer')(['path', 'assert', {
 }]);
 ```
 
-In this example : 
+Is the same that :
 
-- ``path`` and ``assert`` will be global and named as this
-- ``lodash`` will be known as ``GLOBAL._``
-- ``gulp-util`` will be known as ``GLOBAL.gutil``
-- ``supertest`` will be known as ``GLOBAL.request``
-- ...
+```
+GLOBAL.path = require('path');
+GLOBAL.assert = require('assert');
+GLOBAL._ = require('lodash');
+GLOBAL.gutil = require('gulp-util');
+GLOBAL.request = require('supertest');
+GLOBAL.Deferred = require('JQDeferred');
+GLOBAL.io = require('socket.io-client');
+GLOBAL.config = require('../../config');
+```
