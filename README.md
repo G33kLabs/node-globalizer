@@ -7,7 +7,7 @@ Install it
 ----------
 
 ```
-npm install globalizer
+npm install globalizer --save
 ```
 
 Use it
