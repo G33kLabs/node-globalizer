@@ -24,7 +24,7 @@ require('globalizer')(['path', 'assert', {
 }]);
 ```
 
-Is the same that :
+Is identical to :
 
 ```
 GLOBAL.path = require('path');
