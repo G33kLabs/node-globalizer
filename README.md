@@ -1,7 +1,7 @@
-GLOBALIZER
-==========
+node-globalizer
+===============
 
-Load libs as Global
+This node.js module will load a collection of modules and expose them as GLOBAL.
 
 Install it
 ----------
