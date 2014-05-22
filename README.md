@@ -26,5 +26,8 @@ require('globalizer')(['path', 'assert', {
 
 In this example : 
 
-- ``path`` and ``assert`` will be global and name as this
-- ``lodash`` will be set as ``_``
+- ``path`` and ``assert`` will be global and named as this
+- ``lodash`` will be known as ``GLOBAL._``
+- ``gulp-util`` will be known as ``GLOBAL.gutil``
+- ``supertest`` will be known as ``GLOBAL.request``
+- ...
