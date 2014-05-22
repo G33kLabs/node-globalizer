@@ -1,0 +1,17 @@
+{
+    "name": "globalizer",
+    "version": "0.1.1",
+    "author": {
+        "name": "G33kLabs",
+        "email": "contact@g33klabs.fr"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/G33kLabs/node-globalizer.git"
+    },
+    "license": "MIT",
+    "main": "index.js",
+    "engines": {
+        "node": ">= 0.8.0"
+    }
+}
