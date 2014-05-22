@@ -6,15 +6,15 @@ Load libs as Global
 Install it
 ----------
 
+```
 npm install globalizer
+```
 
 Use it
 ------
 
 ```
-var globalizer = require('globalizer');
-
-globalizer(['path', 'assert', {
+require('globalizer')(['path', 'assert', {
     _: 'lodash',
     gutil: 'gulp-util',
     request: 'supertest',
