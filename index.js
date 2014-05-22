@@ -5,7 +5,7 @@ module.exports = function(libs) {
 
     // Arrayize 'libs'
     if (typeof libs == 'string') libs = [libs];
-    else if (typeof libs == 'object' && !libs.length) libs = [libs];
+    else if (typeof libs == 'object' && typeof libs.length != 'number') libs = [libs];
 
     // Walk over libs and load them as global
     libs.forEach(function(mod, idx) {
