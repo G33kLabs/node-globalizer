@@ -1,8 +1,11 @@
 module.exports = function(libs) {
 
+    // Protect libs
+    if (!libs || typeof libs == 'undefined') return;
+
     // Arrayize 'libs'
     if (typeof libs == 'string') libs = [libs];
-    else if (typeof libs == 'object') libs = [libs];
+    else if (typeof libs == 'object' && !libs.length) libs = [libs];
 
     // Walk over libs and load them as global
     libs.forEach(function(mod, idx) {
