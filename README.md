@@ -1,5 +1,4 @@
-node-globalizer
-===============
+# node-globalizer
 
 This node.js module will load a collection of modules and expose them as GLOBAL.
 
